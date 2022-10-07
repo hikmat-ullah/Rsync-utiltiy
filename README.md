@@ -7,9 +7,9 @@ This utitily is mostly used to backup files and directories from one server to a
 
 The default port for this utility is 22 ( same as SSH )
 
-How to install rsync utility on linux machine or server
+## How to install rsync utility on linux machine or server
 
-# yum install rsync // on centos 7 or redhat 
+### yum install rsync // on centos 7 or redhat 
 
-# apt install rsync // on ubuntu machine
+### apt install rsync // on ubuntu machine
 
