@@ -21,7 +21,7 @@ cd /home/hikmat
 
 tar cvf backup.tar . // here dot means current directory at the end of command 
 
-rsync -zvf backup.tar /tmp/backups // Create backups directory if it is not created or present
+rsync -azv backup.tar /tmp/backups // Create backups directory if it is not created or present
 
 ### rsync a file on a remote machine
 This is send a file named backup.tar from local server to remote server.
